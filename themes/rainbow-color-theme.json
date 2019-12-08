@@ -2,12 +2,33 @@
 	"name": "Rainbow Color Theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.background": "#242424",
+		"editor.foreground": "#F9FAF4",
+		"activityBarBadge.background": "#242424",
+		"sideBarTitle.foreground": "#F9FAF4"
 	},
 	"tokenColors": [
+		{
+			"name": "Parameter",
+			"scope": [
+				"variable.parameter",
+			],
+			"settings": {
+				"foreground": "#79ABFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Enum Member, Constant",
+			"scope": [
+				"variable.other.enummember",
+				"variable.other.global"
+			],
+			"settings": {
+				"foreground": "#66D9EF",
+				"fontStyle": "italic bold"
+			}
+		},
 		{
 			"name": "Comment",
 			"scope": [
@@ -15,18 +36,28 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#626262"
 			}
 		},
 		{
-			"name": "Variables",
+			"name": "Properties",
 			"scope": [
-				"variable",
+				"variable.other.property",
+				"variable.other.property.cli",
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#66E1F8"
+			}
+		},
+		{
+			"name": "Static Properties",
+			"scope": [
+				"variable.other.property.static"
+			],
+			"settings": {
+				"foreground": "#8DDAF8",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -35,7 +66,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -51,18 +82,23 @@
 		{
 			"name": "Keyword, Storage",
 			"scope": [
-				"keyword",
+				"keyword.other.unit",
+				"keyword.other",
+				"keyword.control",
 				"storage.type",
-				"storage.modifier"
+				"storage.modifier",
+				"keyword.other.template",
+				"keyword.other.substitution",
+				"entity.name.function.preprocessor"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"fontStyle": "bold",
+				"foreground": "#DD2867"
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
@@ -72,11 +108,15 @@
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
+				"entity.name.label",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"keyword"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#F9FAF4"
 			}
 		},
 		{
@@ -87,29 +127,53 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#F07178"
 			}
 		},
 		{
 			"name": "Function, Special Method",
 			"scope": [
-				"entity.name.function",
-				"meta.function-call",
-				"variable.function",
-				"support.function",
-				"keyword.other.special-method"
+				"meta.function entity.name.function"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"fontStyle": "bold",
+				"foreground": "#1EB540"
+			}
+		},
+		{
+			"name": "Function Call",
+			"scope": [
+				"meta.function-call entity.name.function",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method",
+				"entity.name.function.templated"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#A7EC21"
+			}
+		},
+		{
+			"name": "Static Function Call",
+			"scope": [
+				"meta.function-call entity.name.function.member.static"
+			],
+			"settings": {
+				"foreground": "#96EC3F",
+				"fontStyle": ""
 			}
 		},
 		{
 			"name": "Block Level Variables",
 			"scope": [
-				"meta.block variable.other"
+				"variable",
+				"meta.block variable.other",
+				"variable.other.local"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"fontStyle": "",
+				"foreground": "#FFBF26"
 			}
 		},
 		{
@@ -119,23 +183,17 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"fontStyle": "",
+				"foreground": "#FFBF26"
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Number",
 			"scope": [
 				"constant.numeric",
-				"constant.language",
-				"support.constant",
-				"constant.character",
-				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#6897BB"
 			}
 		},
 		{
@@ -150,13 +208,16 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#17C6A3"
 			}
 		},
 		{
-			"name": "Class, Support",
+			"name": "Class, Support, Namespace",
 			"scope": [
-				"entity.name",
+				"entity.name.type.class",
+				"entity.name.type.class.generic",
+				"entity.name.type.class.templated",
+				"entity.name.namespace",
 				"support.type",
 				"support.class",
 				"support.orther.namespace.use.php",
@@ -166,7 +227,8 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"fontStyle": "bold",
+				"foreground": "#1290C3"
 			}
 		},
 		{
@@ -189,7 +251,8 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"fontStyle": "",
+				"foreground": "#FFBF26"
 			}
 		},
 		{
@@ -239,7 +302,8 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"fontStyle": "bold",
+				"foreground": "#3EABE6"
 			}
 		},
 		{
@@ -249,8 +313,8 @@
 				"text.html.basic entity.other.attribute-name"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+				"fontStyle": "",
+				"foreground": "#FFBF26"
 			}
 		},
 		{
@@ -259,7 +323,8 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"fontStyle": "bold",
+				"foreground": "#1290C3"
 			}
 		},
 		{
@@ -268,7 +333,7 @@
 				"source.sass keyword.control"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#FFBF26"
 			}
 		},
 		{
@@ -277,7 +342,7 @@
 				"markup.inserted"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#295622"
 			}
 		},
 		{
@@ -286,7 +351,7 @@
 				"markup.deleted"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#661a1a"
 			}
 		},
 		{
@@ -295,7 +360,7 @@
 				"markup.changed"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#415F69"
 			}
 		},
 		{
@@ -334,7 +399,6 @@
 				"tag.decorator.js punctuation.definition.tag.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#82AAFF"
 			}
 		},
@@ -344,7 +408,6 @@
 				"source.js constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#FF5370"
 			}
 		},
@@ -458,6 +521,15 @@
 			}
 		},
 		{
+			"name": "Markdown - Line Break",
+			"scope": [
+				"text.html.markdown meta.dummy.line-break"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
 			"name": "Markdown - Heading",
 			"scope": [
 				"markdown.heading",
@@ -515,6 +587,16 @@
 			}
 		},
 		{
+			"name": "Markup - Strike",
+			"scope": [
+				"markup.strike"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#65737E"
+			}
+		},
+		{
 			"name": "Markdown - Blockquote",
 			"scope": [
 				"markup.quote punctuation.definition.blockquote.markdown"
@@ -530,6 +612,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
+				"foreground": "#65737E"
 			}
 		},
 		{
@@ -623,6 +706,30 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "#6796e6"
+			}
+		},
+		{
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "#cd9731"
+			}
+		},
+		{
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "#f44747"
+			}
+		},
+		{
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "#b267e6"
 			}
 		}
 	]

@@ -68,28 +68,7 @@
 			}
 		},
 		{
-			"name": "Colors",
-			"scope": [
-				"constant.other.color"
-			],
-			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Invalid",
-			"scope": [
-				"invalid",
-				"invalid.illegal"
-			],
-			"settings": {
-				"foreground": "#FF5370",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Keyword, Storage",
+			"name": "Keyword",
 			"scope": [
 				"keyword.other.unit",
 				"keyword.other",
@@ -115,10 +94,6 @@
 				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"entity.name.label",
 				"support.constant",
@@ -142,31 +117,10 @@
 			}
 		},
 		{
-			"name": "Tag",
-			"scope": [
-				"entity.name.tag",
-				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
-			],
-			"settings": {
-				"foreground": "#F07178",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Function, Special Method",
-			"scope": [
-				"meta.function entity.name.function"
-			],
-			"settings": {
-				"foreground": "#1EB540",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Function Call",
 			"scope": [
 				"meta.function-call entity.name.function",
+				"entity.name.function.member",
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method",
@@ -188,22 +142,20 @@
 			}
 		},
 		{
-			"name": "Block Level Variables",
+			"name": "Function Declaration",
 			"scope": [
-				"variable",
-				"meta.block variable.other",
-				"variable.other.local"
+				"meta.function entity.name.function"
 			],
 			"settings": {
-				"foreground": "#FFBF26",
-				"fontStyle": ""
+				"foreground": "#1EB540",
+				"fontStyle": "bold"
 			}
 		},
 		{
-			"name": "Other Variable, String Link",
+			"name": "Local Variables",
 			"scope": [
+				"variable.other.local",
 				"support.other.variable",
-				"string.other.link"
 			],
 			"settings": {
 				"foreground": "#FFBF26",
@@ -221,15 +173,11 @@
 			}
 		},
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "String",
 			"scope": [
 				"string",
 				"constant.other.symbol",
-				"constant.other.key",
-				"entity.other.inherited-class",
-				"markup.heading",
-				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"constant.other.key"
 			],
 			"settings": {
 				"foreground": "#17C6A3",
@@ -237,52 +185,19 @@
 			}
 		},
 		{
-			"name": "Class, Support, Namespace",
+			"name": "Class, Type, Namespace",
 			"scope": [
 				"entity.name.type.class",
 				"entity.name.type.class.generic",
 				"entity.name.type.class.templated",
+				"entity.name.type.class.reference",
+				"entity.name.type.class.value",
 				"entity.name.namespace",
-				"support.type",
 				"support.class",
-				"support.orther.namespace.use.php",
-				"meta.use.php",
-				"support.other.namespace.php",
-				"markup.changed.git_gutter",
-				"support.type.sys-types"
-			],
-			"settings": {
-				"foreground": "#1290C3",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Entity Types",
-			"scope": [
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Language methods",
-			"scope": [
-				"variable.language"
-			],
-			"settings": {
-				"foreground": "#FF5370",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Attributes",
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#3EABE6",
+				"foreground": "#1290C3",
 				"fontStyle": "bold"
 			}
 		}

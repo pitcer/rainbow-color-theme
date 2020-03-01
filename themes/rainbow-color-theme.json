@@ -89,7 +89,10 @@
 				"storage.modifier",
 				"keyword.other.template",
 				"keyword.other.substitution",
-				"entity.name.function.preprocessor"
+				"keyword.operator.new",
+				"constant.language",
+				"entity.name.function.preprocessor",
+				"variable.language"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -109,14 +112,22 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"entity.name.label",
-				"constant.language",
 				"support.constant",
-				"constant.character",
-				"constant.escape",
-				"keyword"
+				"keyword",
 			],
 			"settings": {
 				"foreground": "#F9FAF4"
+			}
+		},
+		{
+			"name": "Constant Character",
+			"scope": [
+				"constant.character",
+				"constant.character.escape",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#AE81FF",
 			}
 		},
 		{

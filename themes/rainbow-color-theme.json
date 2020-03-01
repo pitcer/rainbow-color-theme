@@ -2,10 +2,15 @@
 	"name": "Rainbow Color Theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#242424",
+		"editor.background": "#202020",
 		"editor.foreground": "#F9FAF4",
-		"activityBarBadge.background": "#242424",
-		"sideBarTitle.foreground": "#F9FAF4"
+		"editor.foldBackground": "#484848",
+		"editor.selectionBackground": "#3E515D",
+		"editor.selectionForeground": "#44CEEF",
+		"editor.lineHighlightBackground": "#31312A",
+		"editorCursor.foreground": "#BBBBBB",
+		"sideBar.background": "#202020",
+		"sideBarTitle.foreground": "#F9FAF4",
 	},
 	"tokenColors": [
 		{

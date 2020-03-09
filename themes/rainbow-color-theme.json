@@ -80,8 +80,8 @@
 				"constant.language",
 				"entity.name.function.preprocessor",
 				"variable.language",
-				"keyword.operator.delete.cpp",
-				"punctuation.definition.directive.cpp"
+				"keyword.operator.delete",
+				"punctuation.definition.directive"
 			],
 			"settings": {
 				"foreground": "#DD2867",
@@ -99,10 +99,11 @@
 				"entity.name.label",
 				"support.constant",
 				"keyword",
-				"storage.modifier.reference.cpp",
-				"storage.modifier.pointer.cpp",
-				"meta.preprocessor.include.cpp punctuation.definition.string.begin.cpp",
-				"meta.preprocessor.include.cpp punctuation.definition.string.end.cpp",
+				"storage.modifier.array.bracket.square",
+				"storage.modifier.reference",
+				"storage.modifier.pointer",
+				"meta.preprocessor.include punctuation.definition.string.begin",
+				"meta.preprocessor.include punctuation.definition.string.end",
 
 			],
 			"settings": {
@@ -125,8 +126,9 @@
 		{
 			"name": "Function declaration",
 			"scope": [
-				"entity.name.function.definition.cpp",
-				"entity.name.function.definition.special.constructor.cpp"
+				"meta.function.definition.parameters entity.name.function",
+				"entity.name.function.definition",
+				"entity.name.function.definition.special.constructor"
 			],
 			"settings": {
 				"foreground": "#1EB540",
@@ -136,8 +138,9 @@
 		{
 			"name": "Function call",
 			"scope": [
-				"entity.name.function.call.cpp",
-				"meta.body.function.definition.cpp entity.name.function.member.cpp"
+				"meta.function-call entity.name.function",
+				"entity.name.function.call",
+				"meta.body.function.definition entity.name.function.member"
 			],
 			"settings": {
 				"foreground": "#A7EC21",
@@ -180,8 +183,8 @@
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
-				"punctuation.definition.string.begin.cpp",
-				"punctuation.definition.string.end.cpp"
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end"
 			],
 			"settings": {
 				"foreground": "#17C6A3",
@@ -199,8 +202,8 @@
 				"entity.name.namespace",
 				"support.class",
 				"support.type",
-				"meta.preprocessor.include.cpp string.quoted.other.lt-gt.include.cpp",
-				"meta.preprocessor.include.cpp string.quoted.double.include.cpp",
+				"meta.preprocessor.include string.quoted.other.lt-gt.include",
+				"meta.preprocessor.include string.quoted.double.include",
 			],
 			"settings": {
 				"foreground": "#1290C3",

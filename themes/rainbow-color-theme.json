@@ -48,7 +48,8 @@
 			"scope": [
 				"variable.other.property",
 				"variable.other.property.cli",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
+				"support.type.property-name.json.comments"
 			],
 			"settings": {
 				"foreground": "#66E1F8",
@@ -62,7 +63,7 @@
 			],
 			"settings": {
 				"foreground": "#8DDAF8",
-				"fontStyle": ""
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -78,7 +79,9 @@
 				"keyword.operator.new",
 				"constant.language",
 				"entity.name.function.preprocessor",
-				"variable.language"
+				"variable.language",
+				"keyword.operator.delete.cpp",
+				"punctuation.definition.directive.cpp"
 			],
 			"settings": {
 				"foreground": "#DD2867",
@@ -96,6 +99,11 @@
 				"entity.name.label",
 				"support.constant",
 				"keyword",
+				"storage.modifier.reference.cpp",
+				"storage.modifier.pointer.cpp",
+				"meta.preprocessor.include.cpp punctuation.definition.string.begin.cpp",
+				"meta.preprocessor.include.cpp punctuation.definition.string.end.cpp",
+
 			],
 			"settings": {
 				"foreground": "#F9FAF4",
@@ -115,14 +123,21 @@
 			}
 		},
 		{
-			"name": "Function Call",
+			"name": "Function declaration",
 			"scope": [
-				"meta.function-call entity.name.function",
-				"entity.name.function.member",
-				"variable.function",
-				"support.function",
-				"keyword.other.special-method",
-				"entity.name.function.templated"
+				"entity.name.function.definition.cpp",
+				"entity.name.function.definition.special.constructor.cpp"
+			],
+			"settings": {
+				"foreground": "#1EB540",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Function call",
+			"scope": [
+				"entity.name.function.call.cpp",
+				"meta.body.function.definition.cpp entity.name.function.member.cpp"
 			],
 			"settings": {
 				"foreground": "#A7EC21",
@@ -130,23 +145,12 @@
 			}
 		},
 		{
-			"name": "Static Function Call",
+			"name": "Static function call",
 			"scope": [
-				"meta.function-call entity.name.function.member.static"
 			],
 			"settings": {
 				"foreground": "#96EC3F",
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Function Declaration",
-			"scope": [
-				"meta.function entity.name.function"
-			],
-			"settings": {
-				"foreground": "#1EB540",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -175,7 +179,9 @@
 			"scope": [
 				"string",
 				"constant.other.symbol",
-				"constant.other.key"
+				"constant.other.key",
+				"punctuation.definition.string.begin.cpp",
+				"punctuation.definition.string.end.cpp"
 			],
 			"settings": {
 				"foreground": "#17C6A3",
@@ -192,7 +198,9 @@
 				"entity.name.type.class.value",
 				"entity.name.namespace",
 				"support.class",
-				"support.type"
+				"support.type",
+				"meta.preprocessor.include.cpp string.quoted.other.lt-gt.include.cpp",
+				"meta.preprocessor.include.cpp string.quoted.double.include.cpp",
 			],
 			"settings": {
 				"foreground": "#1290C3",

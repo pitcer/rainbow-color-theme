@@ -25,7 +25,8 @@
 			"name": "Enum Member, Constant",
 			"scope": [
 				"variable.other.enummember",
-				"variable.other.global"
+				"variable.other.global",
+				"entity.name.constant.racket"
 			],
 			"settings": {
 				"foreground": "#66D9EF",
@@ -81,7 +82,8 @@
 				"entity.name.function.preprocessor",
 				"variable.language",
 				"keyword.operator.delete",
-				"punctuation.definition.directive"
+				"punctuation.definition.directive",
+				"support.function.racket"
 			],
 			"settings": {
 				"foreground": "#DD2867",
@@ -128,7 +130,8 @@
 			"scope": [
 				"meta.function.definition.parameters entity.name.function",
 				"entity.name.function.definition",
-				"entity.name.function.definition.special.constructor"
+				"entity.name.function.definition.special.constructor",
+				"entity.name.function.racket"
 			],
 			"settings": {
 				"foreground": "#1EB540",
@@ -140,7 +143,8 @@
 			"scope": [
 				"meta.function-call entity.name.function",
 				"entity.name.function.call",
-				"meta.body.function.definition entity.name.function.member"
+				"meta.body.function.definition entity.name.function.member",
+				"meta.list.racket"
 			],
 			"settings": {
 				"foreground": "#A7EC21",

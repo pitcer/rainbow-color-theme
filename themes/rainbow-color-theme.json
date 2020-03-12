@@ -26,7 +26,8 @@
 			"scope": [
 				"variable.other.enummember",
 				"variable.other.global",
-				"entity.name.constant.racket"
+				"entity.name.constant.racket",
+				"variable.other.makefile"
 			],
 			"settings": {
 				"foreground": "#66D9EF",
@@ -131,7 +132,8 @@
 				"meta.function.definition.parameters entity.name.function",
 				"entity.name.function.definition",
 				"entity.name.function.definition.special.constructor",
-				"entity.name.function.racket"
+				"entity.name.function.racket",
+				"entity.name.function.target.makefile"
 			],
 			"settings": {
 				"foreground": "#1EB540",
@@ -144,7 +146,8 @@
 				"meta.function-call entity.name.function",
 				"entity.name.function.call",
 				"meta.body.function.definition entity.name.function.member",
-				"meta.list.racket"
+				"meta.list.racket",
+				"meta.scope.prerequisites.makefile"
 			],
 			"settings": {
 				"foreground": "#A7EC21",
@@ -188,7 +191,8 @@
 				"constant.other.symbol",
 				"constant.other.key",
 				"punctuation.definition.string.begin",
-				"punctuation.definition.string.end"
+				"punctuation.definition.string.end",
+				"source.makefile"
 			],
 			"settings": {
 				"foreground": "#17C6A3",

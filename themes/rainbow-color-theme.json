@@ -56,6 +56,7 @@
 				"entity.name.tag.localname",
 				"variable.other.property",
 				"variable.other.property.cli",
+				"variable.other.object.property",
 				"string constant.other.placeholder",
 				"support.type.property-name.json.comments",
 				"keyword.other.definition.ini"
@@ -82,7 +83,10 @@
 				"keyword.other",
 				"keyword.control",
 				"keyword.type",
-				"storage.type",
+				"storage.type.class",
+				"storage.type.modifier",
+				"storage.type.primitive",
+				"storage.type.built-in",
 				"storage.modifier",
 				"keyword.other.template",
 				"keyword.other.substitution",
@@ -94,7 +98,7 @@
 				"punctuation.definition.directive",
 				"support.function.racket",
 				"keyword.preprocessor",
-				"meta.preprocessor punctuation.separator.hash"
+				"meta.preprocessor punctuation.separator.hash",
 			],
 			"settings": {
 				"foreground": "#DD2867",
@@ -143,7 +147,8 @@
 				"entity.name.function.definition",
 				"entity.name.function.definition.special.constructor",
 				"entity.name.function.racket",
-				"entity.name.function.target.makefile"
+				"entity.name.function.target.makefile",
+				"entity.name.function.cs"
 			],
 			"settings": {
 				"foreground": "#1EB540",
@@ -157,8 +162,7 @@
 				"entity.name.function.call",
 				"meta.body.function.definition entity.name.function.member",
 				"meta.list.racket",
-				"meta.scope.prerequisites.makefile",
-				"entity.name.function.cs"
+				"meta.scope.prerequisites.makefile"
 			],
 			"settings": {
 				"foreground": "#A7EC21",
@@ -177,8 +181,10 @@
 		{
 			"name": "Local Variable",
 			"scope": [
+				"entity.name.variable.local",
 				"variable.other.local",
 				"support.other.variable",
+				"variable.other.readwrite.cs",
 			],
 			"settings": {
 				"foreground": "#FFBF26",
@@ -225,15 +231,25 @@
 				"entity.name.type.namespace",
 				"entity.name.namespace",
 				"storage.type",
-				"variable.other.object.cs",
 				"support.class",
 				"support.type",
 				"meta.preprocessor.include string.quoted.other.lt-gt.include",
 				"meta.preprocessor.include string.quoted.double.include",
+				"variable.other.object.cs"
 			],
 			"settings": {
 				"foreground": "#1290C3",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Interface",
+			"scope": [
+				"entity.name.type.interface"
+			],
+			"settings": {
+				"foreground": "#80F2F6",
+				"fontStyle": ""
 			}
 		}
 	]

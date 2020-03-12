@@ -57,7 +57,8 @@
 				"variable.other.property",
 				"variable.other.property.cli",
 				"string constant.other.placeholder",
-				"support.type.property-name.json.comments"
+				"support.type.property-name.json.comments",
+				"keyword.other.definition.ini"
 			],
 			"settings": {
 				"foreground": "#66E1F8",
@@ -65,7 +66,7 @@
 			}
 		},
 		{
-			"name": "Static Properties",
+			"name": "Static Property, Static Field",
 			"scope": [
 				"variable.other.property.static"
 			],
@@ -136,7 +137,7 @@
 			}
 		},
 		{
-			"name": "Function declaration",
+			"name": "Function Declaration",
 			"scope": [
 				"meta.function.definition.parameters entity.name.function",
 				"entity.name.function.definition",
@@ -150,7 +151,7 @@
 			}
 		},
 		{
-			"name": "Function call",
+			"name": "Function Call",
 			"scope": [
 				"meta.function-call entity.name.function",
 				"entity.name.function.call",
@@ -165,7 +166,7 @@
 			}
 		},
 		{
-			"name": "Static function call",
+			"name": "Static Function Call",
 			"scope": [
 			],
 			"settings": {
@@ -174,7 +175,7 @@
 			}
 		},
 		{
-			"name": "Local Variables",
+			"name": "Local Variable",
 			"scope": [
 				"variable.other.local",
 				"support.other.variable",
@@ -197,13 +198,15 @@
 		{
 			"name": "String",
 			"scope": [
+				"text",
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
 				"source.makefile",
-				"text"
+				"source.ini",
+				"entity.name.section.group-title.ini"
 			],
 			"settings": {
 				"foreground": "#17C6A3",
@@ -211,7 +214,7 @@
 			}
 		},
 		{
-			"name": "Class, Type, Namespace",
+			"name": "Class, Structure, Namespace",
 			"scope": [
 				"entity.name.type.class",
 				"entity.name.type.class.generic",

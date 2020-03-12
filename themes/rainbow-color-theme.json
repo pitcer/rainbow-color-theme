@@ -15,6 +15,7 @@
 			"name": "Parameter",
 			"scope": [
 				"variable.parameter",
+				"entity.name.variable.parameter"
 			],
 			"settings": {
 				"foreground": "#79ABFF",
@@ -22,11 +23,12 @@
 			}
 		},
 		{
-			"name": "Enum Member, Constant",
+			"name": "Constant, Enum Member",
 			"scope": [
-				"variable.other.enummember",
-				"variable.other.global",
 				"entity.name.constant.racket",
+				"entity.name.variable.enum-member",
+				"variable.other.global",
+				"variable.other.enummember",
 				"variable.other.makefile"
 			],
 			"settings": {
@@ -46,8 +48,12 @@
 			}
 		},
 		{
-			"name": "Properties",
+			"name": "Property, Field",
 			"scope": [
+				"entity.name.variable.property",
+				"entity.name.variable.field",
+				"entity.name.variable.event.cs",
+				"entity.name.tag.localname",
 				"variable.other.property",
 				"variable.other.property.cli",
 				"string constant.other.placeholder",
@@ -74,6 +80,7 @@
 				"keyword.other.unit",
 				"keyword.other",
 				"keyword.control",
+				"keyword.type",
 				"storage.type",
 				"storage.modifier",
 				"keyword.other.template",
@@ -84,7 +91,9 @@
 				"variable.language",
 				"keyword.operator.delete",
 				"punctuation.definition.directive",
-				"support.function.racket"
+				"support.function.racket",
+				"keyword.preprocessor",
+				"meta.preprocessor punctuation.separator.hash"
 			],
 			"settings": {
 				"foreground": "#DD2867",
@@ -147,7 +156,8 @@
 				"entity.name.function.call",
 				"meta.body.function.definition entity.name.function.member",
 				"meta.list.racket",
-				"meta.scope.prerequisites.makefile"
+				"meta.scope.prerequisites.makefile",
+				"entity.name.function.cs"
 			],
 			"settings": {
 				"foreground": "#A7EC21",
@@ -192,7 +202,8 @@
 				"constant.other.key",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
-				"source.makefile"
+				"source.makefile",
+				"text"
 			],
 			"settings": {
 				"foreground": "#17C6A3",
@@ -207,7 +218,11 @@
 				"entity.name.type.class.templated",
 				"entity.name.type.class.reference",
 				"entity.name.type.class.value",
+				"entity.name.type.struct",
+				"entity.name.type.namespace",
 				"entity.name.namespace",
+				"storage.type",
+				"variable.other.object.cs",
 				"support.class",
 				"support.type",
 				"meta.preprocessor.include string.quoted.other.lt-gt.include",

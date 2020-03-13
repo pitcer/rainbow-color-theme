@@ -234,6 +234,8 @@
 				"constant.other.key",
 				"constant.other.symbol",
 				"entity.name.section.group-title.ini",
+				"punctuation.definition.char.begin",
+				"punctuation.definition.char.end",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
 				"source.ini",

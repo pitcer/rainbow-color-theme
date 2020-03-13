@@ -109,6 +109,7 @@
 			"name": "Constant, Enum Member",
 			"scope": [
 				"entity.name.constant.racket",
+				"entity.name.section.markdown",
 				"entity.name.variable.enum-member",
 				"variable.other.enummember",
 				"variable.other.global",
@@ -137,7 +138,9 @@
 				"entity.name.variable.field",
 				"entity.name.variable.property",
 				"keyword.other.definition.ini",
+				"markup.list meta.paragraph.markdown",
 				"string constant.other.placeholder",
+				"support.type.property-name",
 				"support.type.property-name.json.comments",
 				"variable.other.object.property",
 				"variable.other.property",
@@ -244,6 +247,27 @@
 			}
 		},
 		{
+			"name": "Link",
+			"scope": [
+				"markup.underline.link"
+			],
+			"settings": {
+				"foreground": "#287BDE",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Link Title",
+			"scope": [
+				"string.other.link.description.markdown",
+				"string.other.link.title.markdown"
+			],
+			"settings": {
+				"foreground": "#287BDE",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "Constant Character",
 			"scope": [
 				"constant.character",
@@ -275,6 +299,8 @@
 				"meta.preprocessor.include punctuation.definition.string.end",
 				"meta.tag",
 				"punctuation",
+				"punctuation.definition.string.begin.markdown",
+				"punctuation.definition.string.end.markdown",
 				"punctuation.definition.tag",
 				"punctuation.section.embedded",
 				"storage.modifier.array.bracket.square",

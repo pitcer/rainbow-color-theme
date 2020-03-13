@@ -1,21 +1,21 @@
 {
-    "name": "rainbow-color-theme",
-    "displayName": "Rainbow Color Theme",
-    "description": "Rainbow color theme for VS Code",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.40.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Rainbow",
-                "uiTheme": "vs-dark",
-                "path": "./themes/rainbow-color-theme.json"
-            }
-        ]
-    }
+	"name": "rainbow-color-theme",
+	"displayName": "Rainbow Color Theme",
+	"description": "Rainbow color theme for VS Code",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Rainbow",
+				"uiTheme": "vs-dark",
+				"path": "./themes/rainbow-color-theme.json"
+			}
+		]
+	}
 }

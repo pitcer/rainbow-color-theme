@@ -28,6 +28,7 @@
 				"meta.preprocessor punctuation.separator.hash",
 				"punctuation.definition.directive",
 				"storage.type.class",
+				"storage.type.lambda",
 				"storage.type.modifier",
 				"storage.type.primitive",
 				"storage.type.built-in",

@@ -27,11 +27,12 @@
 				"keyword.type",
 				"meta.preprocessor punctuation.separator.hash",
 				"punctuation.definition.directive",
+				"storage.type.built-in",
 				"storage.type.class",
 				"storage.type.lambda",
 				"storage.type.modifier",
 				"storage.type.primitive",
-				"storage.type.built-in",
+				"storage.type.racket",
 				"storage.modifier",
 				"support.function.racket",
 				"variable.language"

@@ -27,6 +27,7 @@
 				"keyword.type",
 				"meta.preprocessor punctuation.separator.hash",
 				"punctuation.definition.directive",
+				"storage.struct.racket",
 				"storage.type.built-in",
 				"storage.type.class",
 				"storage.type.lambda",
@@ -46,6 +47,7 @@
 			"name": "Class, Structure, Namespace",
 			"scope": [
 				"entity.name.namespace",
+				"entity.name.struct.racket",
 				"entity.name.type.class",
 				"entity.name.type.class.generic",
 				"entity.name.type.class.reference",
@@ -141,6 +143,7 @@
 				"entity.name.variable.property",
 				"keyword.other.definition.ini",
 				"markup.list meta.paragraph.markdown",
+				"meta.struct.fields.racket",
 				"string constant.other.placeholder",
 				"support.type.property-name",
 				"support.type.property-name.json.comments",

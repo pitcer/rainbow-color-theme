@@ -117,7 +117,8 @@
 				"entity.name.variable.enum-member",
 				"variable.other.enummember",
 				"variable.other.global",
-				"variable.other.makefile"
+				"variable.other.makefile",
+				"variable.source.cmake"
 			],
 			"settings": {
 				"foreground": "#66D9EF",
@@ -175,6 +176,7 @@
 			"name": "Function, Constructor Call",
 			"scope": [
 				"entity.name.function.call",
+				"keyword.cmake",
 				"meta.body.function.definition entity.name.function.member",
 				"meta.function-call entity.name.function",
 				"meta.list.racket",
@@ -279,7 +281,8 @@
 			"scope": [
 				"constant.character",
 				"constant.character.escape",
-				"constant.other"
+				"constant.other",
+				"storage.source.cmake"
 			],
 			"settings": {
 				"foreground": "#AE81FF",
@@ -310,6 +313,7 @@
 				"punctuation.definition.string.end.markdown",
 				"punctuation.definition.tag",
 				"punctuation.section.embedded",
+				"source.cmake",
 				"storage.modifier.array.bracket.square",
 				"storage.modifier.pointer",
 				"storage.modifier.reference",

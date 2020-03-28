@@ -178,6 +178,7 @@
 				"entity.name.function.call",
 				"keyword.cmake",
 				"meta.body.function.definition entity.name.function.member",
+				"meta.parameter.initialization entity.name.function.member",
 				"meta.function-call entity.name.function",
 				"meta.list.racket",
 				"meta.scope.prerequisites.makefile"

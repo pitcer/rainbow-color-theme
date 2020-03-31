@@ -32,8 +32,11 @@
 				"storage.type.class",
 				"storage.type.lambda",
 				"storage.type.modifier",
+				"storage.type.namespace",
 				"storage.type.primitive",
 				"storage.type.racket",
+				"storage.type.struct",
+				"storage.type.template",
 				"storage.modifier",
 				"support.function.racket",
 				"variable.language"
@@ -103,7 +106,9 @@
 		},
 		{
 			"name": "Type Parameter",
-			"scope": [],
+			"scope": [
+				"entity.name.type.template"
+			],
 			"settings": {
 				"foreground": "#D7837F",
 				"fontStyle": "bold"
@@ -177,6 +182,7 @@
 			"scope": [
 				"entity.name.function.call",
 				"keyword.cmake",
+				"meta.block entity.name.function.member",
 				"meta.body.function.definition entity.name.function.member",
 				"meta.parameter.initialization entity.name.function.member",
 				"meta.function-call entity.name.function",

@@ -9,7 +9,10 @@ Color theme for [Visual Studio Code](https://github.com/microsoft/vscode) inspir
 * C
 * C++
 * C#
+* CMake
 * EditorConfig
+* Java
 * JSON
+* Makefile
 * Markdown
 * Racket

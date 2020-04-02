@@ -18,6 +18,7 @@
 				"entity.name.function.preprocessor",
 				"keyword.control",
 				"keyword.operator.delete",
+				"keyword.operator.instanceof",
 				"keyword.operator.new",
 				"keyword.other",
 				"keyword.other.substitution",
@@ -31,6 +32,7 @@
 				"storage.type.built-in",
 				"storage.type.class",
 				"storage.type.lambda",
+				"storage.type.local",
 				"storage.type.modifier",
 				"storage.type.namespace",
 				"storage.type.primitive",
@@ -58,12 +60,15 @@
 				"entity.name.type.class.value",
 				"entity.name.type.namespace",
 				"entity.name.type.struct",
+				"entity.other.inherited-class",
+				"meta.definition.variable storage.type.generic",
 				"meta.preprocessor.include string.quoted.double.include",
 				"meta.preprocessor.include string.quoted.other.lt-gt.include",
+				"storage.modifier.import",
 				"storage.type",
 				"support.class",
 				"support.type",
-				"variable.other.object.cs"
+				"variable.other.object"
 			],
 			"settings": {
 				"foreground": "#1290C3",
@@ -81,7 +86,8 @@
 		{
 			"name": "Interface",
 			"scope": [
-				"entity.name.type.interface"
+				"entity.name.type.interface",
+				"meta.definition.class.implemented.interfaces entity.other.inherited-class"
 			],
 			"settings": {
 				"foreground": "#80F2F6",
@@ -90,7 +96,10 @@
 		},
 		{
 			"name": "Annotation",
-			"scope": [],
+			"scope": [
+				"punctuation.definition.annotation",
+				"storage.type.annotation"
+			],
 			"settings": {
 				"foreground": "#FF9393",
 				"fontStyle": "italic bold"
@@ -107,7 +116,8 @@
 		{
 			"name": "Type Parameter",
 			"scope": [
-				"entity.name.type.template"
+				"entity.name.type.template",
+				"storage.type.generic"
 			],
 			"settings": {
 				"foreground": "#D7837F",
@@ -153,6 +163,7 @@
 				"string constant.other.placeholder",
 				"support.type.property-name",
 				"support.type.property-name.json.comments",
+				"variable.other.definition",
 				"variable.other.object.property",
 				"variable.other.property",
 				"variable.other.property.cli"
@@ -170,7 +181,8 @@
 				"entity.name.function.definition.special.constructor",
 				"entity.name.function.racket",
 				"entity.name.function.target.makefile",
-				"meta.function.definition.parameters entity.name.function"
+				"meta.function.definition.parameters entity.name.function",
+				"meta.method.identifier entity.name.function"
 			],
 			"settings": {
 				"foreground": "#1EB540",
@@ -186,6 +198,7 @@
 				"meta.body.function.definition entity.name.function.member",
 				"meta.parameter.initialization entity.name.function.member",
 				"meta.function-call entity.name.function",
+				"meta.method-call entity.name.function",
 				"meta.list.racket",
 				"meta.scope.prerequisites.makefile"
 			],
@@ -222,6 +235,7 @@
 			"name": "Parameter",
 			"scope": [
 				"entity.name.variable.parameter",
+				"meta.method.body",
 				"variable.parameter"
 			],
 			"settings": {
@@ -234,6 +248,7 @@
 			"scope": [
 				"entity.name.variable.local",
 				"support.other.variable",
+				"meta.method.body variable.other.definition",
 				"variable.other.local",
 				"variable.other.readwrite.cs"
 			],
@@ -312,6 +327,7 @@
 				"constant.other.color",
 				"entity.name.label",
 				"keyword",
+				"keyword.control.ternary",
 				"meta.preprocessor.include punctuation.definition.string.begin",
 				"meta.preprocessor.include punctuation.definition.string.end",
 				"meta.tag",
@@ -322,8 +338,11 @@
 				"punctuation.section.embedded",
 				"source.cmake",
 				"storage.modifier.array.bracket.square",
+				"storage.modifier.package",
 				"storage.modifier.pointer",
 				"storage.modifier.reference",
+				"storage.type.function.arrow",
+				"storage.type.generic.wildcard",
 				"support.constant"
 
 			],

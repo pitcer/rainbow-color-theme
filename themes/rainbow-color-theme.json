@@ -250,6 +250,7 @@
 				"support.other.variable",
 				"meta.method.body variable.other.definition",
 				"variable.other.local",
+				"variable.other.object.access",
 				"variable.other.readwrite.cs"
 			],
 			"settings": {

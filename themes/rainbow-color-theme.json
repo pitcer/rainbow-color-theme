@@ -129,6 +129,7 @@
 		{
 			"name": "Constant, Enum Member",
 			"scope": [
+				"constant.other.enum",
 				"entity.name.constant.racket",
 				"entity.name.section.markdown",
 				"entity.name.variable.enum-member",

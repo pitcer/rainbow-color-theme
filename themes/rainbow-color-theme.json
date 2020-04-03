@@ -107,7 +107,9 @@
 		},
 		{
 			"name": "Enum",
-			"scope": [],
+			"scope": [
+				"entity.name.type.enum",
+			],
 			"settings": {
 				"foreground": "#CC81BA",
 				"fontStyle": "italic"

@@ -187,6 +187,8 @@
 				"entity.name.function.racket",
 				"entity.name.function.target.makefile",
 				"meta.function.definition.parameters entity.name.function",
+				"meta.function.method.without-arguments entity.name.function",
+				"meta.function.method.with-arguments entity.name.function",
 				"meta.method.identifier entity.name.function"
 			],
 			"settings": {
@@ -205,7 +207,8 @@
 				"meta.function-call entity.name.function",
 				"meta.method-call entity.name.function",
 				"meta.list.racket",
-				"meta.scope.prerequisites.makefile"
+				"meta.scope.prerequisites.makefile",
+				"support.function.kernel"
 			],
 			"settings": {
 				"foreground": "#A7EC21",
@@ -256,7 +259,8 @@
 				"meta.method.body variable.other.definition",
 				"variable.other.local",
 				"variable.other.object.access",
-				"variable.other.readwrite.cs"
+				"variable.other.readwrite.cs",
+				"variable.other.ruby"
 			],
 			"settings": {
 				"foreground": "#FFBF26",

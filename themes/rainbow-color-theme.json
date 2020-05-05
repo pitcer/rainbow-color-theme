@@ -135,6 +135,7 @@
 				"entity.name.constant.racket",
 				"entity.name.section.markdown",
 				"entity.name.variable.enum-member",
+				"variable.other.constant",
 				"variable.other.enummember",
 				"variable.other.global",
 				"variable.other.makefile",
@@ -171,7 +172,8 @@
 				"variable.other.definition",
 				"variable.other.object.property",
 				"variable.other.property",
-				"variable.other.property.cli"
+				"variable.other.property.cli",
+				"variable.other.readwrite.instance",
 			],
 			"settings": {
 				"foreground": "#66E1F8",
@@ -208,6 +210,7 @@
 				"meta.method-call entity.name.function",
 				"meta.list.racket",
 				"meta.scope.prerequisites.makefile",
+				"support.function.core",
 				"support.function.kernel"
 			],
 			"settings": {
@@ -244,6 +247,7 @@
 			"scope": [
 				"entity.name.variable.parameter",
 				"meta.method.body",
+				"variable.other.block",
 				"variable.parameter"
 			],
 			"settings": {

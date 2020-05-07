@@ -16,11 +16,13 @@
 			"scope": [
 				"constant.language",
 				"entity.name.function.preprocessor",
+				"entity.name.operator.type",
 				"keyword.control",
 				"keyword.operator.cast",
 				"keyword.operator.delete",
 				"keyword.operator.instanceof",
 				"keyword.operator.new",
+				"keyword.operator.noexcept",
 				"keyword.operator.sizeof",
 				"keyword.other",
 				"keyword.other.substitution",
@@ -30,9 +32,11 @@
 				"keyword.type",
 				"meta.preprocessor punctuation.separator.hash",
 				"punctuation.definition.directive",
+				"storage.modifier",
 				"storage.struct.racket",
 				"storage.type.built-in",
 				"storage.type.class",
+				"storage.type.enum",
 				"storage.type.lambda",
 				"storage.type.local",
 				"storage.type.modifier",
@@ -41,7 +45,7 @@
 				"storage.type.racket",
 				"storage.type.struct",
 				"storage.type.template",
-				"storage.modifier",
+				"storage.type.integral",
 				"support.function.racket",
 				"variable.language"
 			],
@@ -110,7 +114,7 @@
 		{
 			"name": "Enum",
 			"scope": [
-				"entity.name.type.enum",
+				"entity.name.type.enum"
 			],
 			"settings": {
 				"foreground": "#CC81BA",

@@ -93,6 +93,7 @@
 			"name": "Interface",
 			"scope": [
 				"entity.name.type.interface",
+				"entity.name.type.module",
 				"meta.definition.class.implemented.interfaces entity.other.inherited-class"
 			],
 			"settings": {
@@ -210,6 +211,7 @@
 				"meta.block entity.name.function.member",
 				"meta.body.function.definition entity.name.function.member",
 				"meta.parameter.initialization entity.name.function.member",
+				"meta.function.method.with-arguments meta.function-call entity.name.function",
 				"meta.function-call entity.name.function",
 				"meta.method-call entity.name.function",
 				"meta.list.racket",

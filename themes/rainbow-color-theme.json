@@ -217,7 +217,8 @@
 				"meta.list.racket",
 				"meta.scope.prerequisites.makefile",
 				"support.function.core",
-				"support.function.kernel"
+				"support.function.kernel",
+				"text.tex.latex support.function"
 			],
 			"settings": {
 				"foreground": "#A7EC21",

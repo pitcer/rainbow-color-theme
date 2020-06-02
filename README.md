@@ -17,3 +17,8 @@ Color theme for [Visual Studio Code](https://github.com/microsoft/vscode) inspir
 * Markdown
 * Racket
 * Ruby
+
+## How to install
+
+* `cd ~/.vscode/extensions`
+* `git clone https://github.com/pitcer/rainbow-color-theme.git`

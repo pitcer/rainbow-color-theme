@@ -164,6 +164,7 @@
 		{
 			"name": "Property, Field",
 			"scope": [
+				"entity.name.tag",
 				"entity.name.tag.localname",
 				"entity.name.variable.event.cs",
 				"entity.name.variable.field",

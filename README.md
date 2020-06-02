@@ -13,10 +13,12 @@ Color theme for [Visual Studio Code](https://github.com/microsoft/vscode) inspir
 * EditorConfig
 * Java
 * JSON
+* Latex
 * Makefile
 * Markdown
 * Racket
 * Ruby
+* YAML
 
 ## How to install
 

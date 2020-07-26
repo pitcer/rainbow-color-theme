@@ -17,6 +17,8 @@
 				"constant.language",
 				"entity.name.function.preprocessor",
 				"entity.name.operator.type",
+				"entity.name.tag.css",
+				"entity.name.tag.html",
 				"keyword.control",
 				"keyword.operator.cast",
 				"keyword.operator.delete",
@@ -39,6 +41,7 @@
 				"storage.type.class",
 				"storage.type.enum",
 				"storage.type.function",
+				"storage.type.js",
 				"storage.type.lambda",
 				"storage.type.local",
 				"storage.type.modifier",
@@ -47,6 +50,7 @@
 				"storage.type.racket",
 				"storage.type.struct",
 				"storage.type.template",
+				"storage.type.ts",
 				"storage.type.integral",
 				"support.function.racket",
 				"variable.language"
@@ -68,10 +72,13 @@
 				"entity.name.type.class.value",
 				"entity.name.type.namespace",
 				"entity.name.type.struct",
+				"entity.other.attribute-name.class.css",
 				"entity.other.inherited-class",
+				"meta.attribute.class.html string.quoted.double.html",
 				"meta.definition.variable storage.type.generic",
 				"meta.preprocessor.include string.quoted.double.include",
 				"meta.preprocessor.include string.quoted.other.lt-gt.include",
+				"source.js support.constant",
 				"storage.modifier.import",
 				"storage.type",
 				"support.class",
@@ -85,7 +92,10 @@
 		},
 		{
 			"name": "Abstract Class",
-			"scope": [],
+			"scope": [
+				"entity.other.attribute-name.id.css",
+				"meta.attribute.id.html string.quoted.double.html"
+			],
 			"settings": {
 				"foreground": "#3EABE6",
 				"fontStyle": "bold"
@@ -143,6 +153,7 @@
 				"entity.name.constant.racket",
 				"entity.name.section.markdown",
 				"entity.name.variable.enum-member",
+				"support.constant.media.css",
 				"variable.other.constant",
 				"variable.other.enummember",
 				"variable.other.global",
@@ -172,6 +183,7 @@
 				"entity.name.variable.event.cs",
 				"entity.name.variable.field",
 				"entity.name.variable.property",
+				"entity.other.attribute-name.html",
 				"keyword.other.definition.ini",
 				"markup.list meta.paragraph.markdown",
 				"meta.struct.fields.racket",
@@ -198,6 +210,7 @@
 				"entity.name.function.python",
 				"entity.name.function.racket",
 				"entity.name.function.target.makefile",
+				"meta.definition.function entity.name.function",
 				"meta.function.definition.parameters entity.name.function",
 				"meta.function.method.without-arguments entity.name.function",
 				"meta.function.method.with-arguments entity.name.function",
@@ -224,6 +237,8 @@
 				"meta.method-call entity.name.function",
 				"meta.list.racket",
 				"meta.scope.prerequisites.makefile",
+				"new.expr.js entity.name.type.js",
+				"source.css support.function",
 				"support.function.builtin.python",
 				"support.function.core",
 				"support.function.kernel",
@@ -236,7 +251,9 @@
 		},
 		{
 			"name": "Static Function Call",
-			"scope": [],
+			"scope": [
+				"meta.function-call support.function"
+			],
 			"settings": {
 				"foreground": "#96EC3F",
 				"fontStyle": "italic"
@@ -262,6 +279,7 @@
 			"name": "Parameter",
 			"scope": [
 				"entity.name.variable.parameter",
+				"entity.other.attribute-name",
 				"meta.method.body",
 				"variable.other.block",
 				"variable.parameter"
@@ -281,6 +299,8 @@
 				"source.python",
 				"variable.other.local",
 				"variable.other.object.access",
+				"variable.other.object.js",
+				"variable.other.readwrite",
 				"variable.other.readwrite.cs",
 				"variable.other.ruby"
 			],
@@ -312,7 +332,7 @@
 		{
 			"name": "Link",
 			"scope": [
-				"markup.underline.link"
+				"markup.underline.link",
 			],
 			"settings": {
 				"foreground": "#287BDE",
@@ -346,7 +366,10 @@
 		{
 			"name": "Number",
 			"scope": [
-				"constant.numeric"
+				"constant.numeric",
+				"constant.numeric.css keyword.other.unit",
+				"support.constant.font-name.css",
+				"support.constant.property-value.css"
 			],
 			"settings": {
 				"foreground": "#6897BB",
@@ -360,6 +383,13 @@
 				"entity.name.label",
 				"keyword",
 				"keyword.control.ternary",
+				"meta.attribute.class.html punctuation.definition.string.begin.html",
+				"meta.attribute.class.html punctuation.definition.string.end.html",
+				"meta.attribute.id.html punctuation.definition.string.begin.html",
+				"meta.attribute.id.html punctuation.definition.string.end.html",
+				"meta.brace.round.js",
+				"meta.embedded.line.js punctuation.definition.string.begin.html",
+				"meta.embedded.line.js punctuation.definition.string.end.html",
 				"meta.preprocessor.include punctuation.definition.string.begin",
 				"meta.preprocessor.include punctuation.definition.string.end",
 				"meta.tag",

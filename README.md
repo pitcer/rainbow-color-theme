@@ -6,6 +6,7 @@ Color theme for [Visual Studio Code](https://github.com/microsoft/vscode) inspir
 
 ## Currently supported languages
 
+* Blade
 * C
 * C++
 * C#
@@ -19,9 +20,12 @@ Color theme for [Visual Studio Code](https://github.com/microsoft/vscode) inspir
 * Latex
 * Makefile
 * Markdown
+* PHP
 * Python
 * Racket
 * Ruby
+* SCSS
+* Vue
 * YAML
 
 ## How to install

@@ -224,7 +224,7 @@
                 "variable.other.object.property",
                 "variable.other.property",
                 "variable.other.property.cli",
-                "variable.other.readwrite.instance",
+                "variable.other.readwrite.instance"
             ],
             "settings": {
                 "foreground": "#66E1F8",
@@ -330,10 +330,11 @@
             "name": "Local Variable",
             "scope": [
                 "entity.name.variable.local",
-                "support.other.variable",
+                "meta.definition.variable.js entity.name.function.js",
                 "meta.function-call.python meta.function-call.arguments.python",
                 "meta.method.body variable.other.definition",
                 "source.python",
+                "support.other.variable",
                 "variable.other.local",
                 "variable.other.object.access",
                 "variable.other.object.js",

@@ -221,6 +221,7 @@
                 "support.type.property-name",
                 "support.type.property-name.json.comments",
                 "support.variable.hocon",
+                "variable.graphql",
                 "variable.other.definition",
                 "variable.other.object.property",
                 "variable.other.property",

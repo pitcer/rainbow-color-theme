@@ -29,6 +29,7 @@
                 "keyword.operator.delete",
                 "keyword.operator.expression.in.js",
                 "keyword.operator.expression.of.js",
+                "keyword.operator.expression.typeof.js",
                 "keyword.operator.instanceof",
                 "keyword.operator.logical.python",
                 "keyword.operator.new",

@@ -215,6 +215,7 @@
                 "markup.list meta.paragraph.markdown",
                 "meta.block.js entity.name.label.js",
                 "meta.object-literal.key.js",
+                "meta.property-value.css",
                 "meta.struct.fields.racket",
                 "meta.tag.block.any.html entity.other.attribute-name",
                 "meta.tag.inline.any.html entity.other.attribute-name",

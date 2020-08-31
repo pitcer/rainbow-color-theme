@@ -44,6 +44,7 @@
                 "meta.preprocessor punctuation.separator.hash",
                 "punctuation.definition.directive",
                 "punctuation.section.embedded.begin.php",
+                "punctuation.section.embedded.end.php",
                 "source.js.embedded.html entity.name.tag",
                 "storage.modifier",
                 "storage.struct.racket",
@@ -295,7 +296,8 @@
             "name": "Static Function Call",
             "scope": [
                 "meta.function-call support.function",
-                "meta.method-call.static entity.name.function"
+                "meta.method-call.static entity.name.function",
+                "support.function.construct.output.php"
             ],
             "settings": {
                 "foreground": "#96EC3F",

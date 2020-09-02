@@ -31,6 +31,7 @@
                 "keyword.operator.expression.of.js",
                 "keyword.operator.expression.typeof.js",
                 "keyword.operator.instanceof",
+                "keyword.operator.logical.php",
                 "keyword.operator.logical.python",
                 "keyword.operator.new",
                 "keyword.operator.noexcept",

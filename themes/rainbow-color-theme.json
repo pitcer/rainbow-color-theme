@@ -197,6 +197,7 @@
         {
             "name": "Static Property, Static Field",
             "scope": [
+                "variable.other.class.php",
                 "variable.other.property.static"
             ],
             "settings": {

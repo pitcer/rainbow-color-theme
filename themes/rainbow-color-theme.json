@@ -53,6 +53,7 @@
                 "storage.type.class",
                 "storage.type.enum",
                 "storage.type.function",
+                "storage.type.interface",
                 "storage.type.js",
                 "storage.type.lambda",
                 "storage.type.local",

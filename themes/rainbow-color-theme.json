@@ -22,6 +22,8 @@
                 "entity.name.tag.html",
                 "entity.name.tag.inline.any.html",
                 "entity.name.tag.other.html",
+                "entity.name.tag.script.html",
+                "entity.name.tag.template.html",
                 "keyword.blade",
                 "keyword.control",
                 "keyword.input.graphql",
@@ -107,6 +109,8 @@
                 "support.class",
                 "support.other.namespace.php",
                 "support.type",
+                "support.type.object.module.js keyword.operator.accessor.js",
+                "variable.other.class.js",
                 "variable.other.object",
                 "variable.other.readwrite.alias.js"
             ],
@@ -219,6 +223,7 @@
                 "keyword.other.definition.ini",
                 "markup.list meta.paragraph.markdown",
                 "meta.block.js entity.name.label.js",
+                "meta.function.json.arrow.js entity.name.function.js",
                 "meta.object-literal.key.js",
                 "meta.property-value.css",
                 "meta.struct.fields.racket",
@@ -226,6 +231,7 @@
                 "meta.tag.inline.any.html entity.other.attribute-name",
                 "meta.tag.other.html entity.other.attribute-name",
                 "string constant.other.placeholder",
+                "string.unquoted.js",
                 "support.type.property-name",
                 "support.type.property-name.json.comments",
                 "support.variable.hocon",
@@ -256,6 +262,8 @@
                 "meta.definition.function entity.name.function",
                 "meta.definition.method entity.name.function",
                 "meta.function.definition.parameters entity.name.function",
+                "meta.function.js entity.name.function.js",
+                "meta.function.method.js entity.name.function.method.js",
                 "meta.function.method.without-arguments entity.name.function",
                 "meta.function.method.with-arguments entity.name.function",
                 "meta.function.php entity.name.function.php",
@@ -271,6 +279,7 @@
             "name": "Function, Constructor Call",
             "scope": [
                 "entity.name.function.call",
+                "entity.name.type.instance.js",
                 "keyword.cmake",
                 "meta.at-rule.include.scss entity.name.function.scss",
                 "meta.block entity.name.function.member",
@@ -302,7 +311,8 @@
             "scope": [
                 "meta.function-call support.function",
                 "meta.method-call.static entity.name.function",
-                "support.function.construct.output.php"
+                "support.function.construct.output.php",
+                "support.function.js"
             ],
             "settings": {
                 "foreground": "#96EC3F",
@@ -328,9 +338,12 @@
         {
             "name": "Parameter",
             "scope": [
+                "entity.name.function.tagged-template.js",
                 "entity.name.variable.parameter",
                 "entity.other.attribute-name",
+                "meta.function.parameters.js variable.other.readwrite.js",
                 "meta.method.body",
+                "string.unquoted.alias.graphql",
                 "variable.other.block",
                 "variable.parameter"
             ],
@@ -344,10 +357,14 @@
             "scope": [
                 "entity.name.variable.local",
                 "meta.definition.variable.js entity.name.function.js",
+                "meta.function.js variable.other.readwrite.js",
+                "meta.function.method.js variable.other.readwrite.js",
                 "meta.function-call.python meta.function-call.arguments.python",
                 "meta.method.body variable.other.definition",
+                "source.directive.vue variable.other.readwrite.js",
                 "source.python",
                 "support.other.variable",
+                "variable.other.dollar.js",
                 "variable.other.local",
                 "variable.other.object.access",
                 "variable.other.object.js",

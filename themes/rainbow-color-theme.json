@@ -290,6 +290,7 @@
                 "meta.function-call meta.function-call.generic",
                 "meta.function-call support.function.builtin",
                 "meta.function-call variable.legacy.builtin",
+                "meta.function-call.js entity.name.function.js",
                 "meta.method-call entity.name.function",
                 "meta.method-call.static.php meta.method-call.php entity.name.function.php",
                 "meta.list.racket",

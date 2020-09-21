@@ -26,7 +26,9 @@
                 "entity.name.tag.template.html",
                 "keyword.blade",
                 "keyword.control",
+                "keyword.fragment.graphql",
                 "keyword.input.graphql",
+                "keyword.on.graphql",
                 "keyword.operation.graphql",
                 "keyword.operator.cast",
                 "keyword.operator.delete",
@@ -45,6 +47,7 @@
                 "keyword.other.unit",
                 "keyword.preprocessor",
                 "keyword.type",
+                "keyword.union.graphql",
                 "meta.preprocessor punctuation.separator.hash",
                 "punctuation.definition.directive",
                 "punctuation.section.embedded.begin.php",
@@ -81,6 +84,7 @@
         {
             "name": "Class, Structure, Namespace",
             "scope": [
+                "entity.name.fragment.graphql",
                 "entity.name.namespace",
                 "entity.name.struct.racket",
                 "entity.name.type.class",
@@ -345,6 +349,7 @@
                 "meta.function.parameters.js variable.other.readwrite.js",
                 "meta.method.body",
                 "string.unquoted.alias.graphql",
+                "string.unquoted.graphql",
                 "variable.other.block",
                 "variable.parameter"
             ],

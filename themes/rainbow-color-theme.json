@@ -23,6 +23,7 @@
                 "entity.name.tag.inline.any.html",
                 "entity.name.tag.other.html",
                 "entity.name.tag.script.html",
+                "entity.name.tag.style.html",
                 "entity.name.tag.template.html",
                 "keyword.blade",
                 "keyword.control",

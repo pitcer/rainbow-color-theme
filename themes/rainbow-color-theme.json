@@ -470,6 +470,7 @@
                 "constant.other.color",
                 "entity.name.label",
                 "entity.name.tag.reference.scss",
+                "entity.name.tag.wildcard.css",
                 "keyword",
                 "keyword.control.ternary",
                 "keyword.operator.logical",

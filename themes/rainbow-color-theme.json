@@ -51,6 +51,7 @@
                 "keyword.union.graphql",
                 "meta.preprocessor punctuation.separator.hash",
                 "punctuation.definition.directive",
+                "punctuation.definition.keyword.css",
                 "punctuation.section.embedded.begin.php",
                 "punctuation.section.embedded.end.php",
                 "source.js.embedded.html entity.name.tag",

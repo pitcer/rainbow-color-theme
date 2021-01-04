@@ -4,6 +4,11 @@ Color theme for [Visual Studio Code](https://github.com/microsoft/vscode) inspir
 
 ![rainbow-color-theme](https://raw.githubusercontent.com/pitcer/rainbow-color-theme/master/rainbow-color-theme.png)
 
+## How to install
+
+* `cd ~/.vscode/extensions`
+* `git clone https://github.com/pitcer/rainbow-color-theme.git`
+
 ## Currently supported languages
 
 * Blade
@@ -27,8 +32,3 @@ Color theme for [Visual Studio Code](https://github.com/microsoft/vscode) inspir
 * SCSS
 * Vue
 * YAML
-
-## How to install
-
-* `cd ~/.vscode/extensions`
-* `git clone https://github.com/pitcer/rainbow-color-theme.git`

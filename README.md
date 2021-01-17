@@ -30,5 +30,6 @@ Color theme for [Visual Studio Code](https://github.com/microsoft/vscode) inspir
 * Racket
 * Ruby
 * SCSS
+* TS
 * Vue
 * YAML

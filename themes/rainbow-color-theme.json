@@ -99,6 +99,7 @@
                 "entity.name.type.namespace",
                 "entity.name.type.struct",
                 "entity.name.type.trait.php",
+                "entity.name.type.ts",
                 "entity.other.attribute-name.class.css",
                 "entity.other.inherited-class",
                 "meta.attribute.class.html string.quoted.double.html",
@@ -155,6 +156,8 @@
         {
             "name": "Annotation",
             "scope": [
+                "meta.decorator.ts entity.name.function.ts",
+                "punctuation.decorator.ts",
                 "punctuation.definition.annotation",
                 "storage.type.annotation"
             ],
@@ -232,6 +235,7 @@
                 "meta.block.js entity.name.label.js",
                 "meta.function.json.arrow.js entity.name.function.js",
                 "meta.object-literal.key.js",
+                "meta.object-literal.key.ts",
                 "meta.property-value.css",
                 "meta.struct.fields.racket",
                 "meta.tag.block.any.html entity.other.attribute-name",
@@ -244,6 +248,7 @@
                 "support.variable.hocon",
                 "support.variable.property",
                 "variable.graphql",
+                "variable.object.property.ts",
                 "variable.other.definition",
                 "variable.other.object.property",
                 "variable.other.property",

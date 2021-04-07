@@ -56,6 +56,8 @@
                 "punctuation.section.embedded.begin.php",
                 "punctuation.section.embedded.end.php",
                 "source.js.embedded.html entity.name.tag",
+                "source.asm keyword",
+                "source.asm entity.directive",
                 "storage.modifier",
                 "storage.struct.racket",
                 "storage.type.built-in",
@@ -280,7 +282,8 @@
                 "meta.function.method.with-arguments entity.name.function",
                 "meta.function.php entity.name.function.php",
                 "meta.function.php support.function.magic.php",
-                "meta.method.identifier entity.name.function"
+                "meta.method.identifier entity.name.function",
+                "source.asm entity.name.function"
             ],
             "settings": {
                 "foreground": "#1EB540",
@@ -375,6 +378,7 @@
                 "meta.function.method.js variable.other.readwrite.js",
                 "meta.function-call.python meta.function-call.arguments.python",
                 "meta.method.body variable.other.definition",
+                "source.asm constant.language.register",
                 "source.directive.vue variable.other.readwrite.js",
                 "source.python",
                 "support.other.variable",
@@ -509,6 +513,7 @@
                 "punctuation.definition.string.end.markdown",
                 "punctuation.definition.tag",
                 "punctuation.section.embedded",
+                "source.asm punctuation.separator storage.modifier",
                 "source.cmake",
                 "storage.modifier.array.bracket.square",
                 "storage.modifier.package",

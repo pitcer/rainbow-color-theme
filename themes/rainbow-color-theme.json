@@ -58,6 +58,7 @@
                 "source.js.embedded.html entity.name.tag",
                 "source.asm keyword",
                 "source.asm entity.directive",
+                "source.cs keyword.query",
                 "storage.modifier",
                 "storage.struct.racket",
                 "storage.type.built-in",
@@ -373,6 +374,7 @@
             "name": "Local Variable",
             "scope": [
                 "entity.name.variable.local",
+                "entity.name.variable.range-variable.cs",
                 "meta.definition.variable.js entity.name.function.js",
                 "meta.function.js variable.other.readwrite.js",
                 "meta.function.method.js variable.other.readwrite.js",

@@ -50,6 +50,7 @@
                 "keyword.other.template",
                 "keyword.other.unit",
                 "keyword.preprocessor",
+                "keyword.storage.modifier.julia",
                 "keyword.type",
                 "keyword.union.graphql",
                 "meta.preprocessor punctuation.separator.hash",
@@ -61,6 +62,7 @@
                 "source.asm keyword",
                 "source.asm entity.directive",
                 "source.cs keyword.query",
+                "source.x86 entity.name.function.instructions",
                 "storage.modifier",
                 "storage.struct.racket",
                 "storage.type.built-in",
@@ -164,6 +166,7 @@
                 "meta.decorator.ts entity.name.function.ts",
                 "punctuation.decorator.ts",
                 "punctuation.definition.annotation",
+                "source.x86 support.constant.subsections",
                 "storage.type.annotation"
             ],
             "settings": {
@@ -287,7 +290,8 @@
                 "meta.function.php entity.name.function.php",
                 "meta.function.php support.function.magic.php",
                 "meta.method.identifier entity.name.function",
-                "source.asm entity.name.function"
+                "source.asm entity.name.function",
+                "source.x86 keyword.label.assembly"
             ],
             "settings": {
                 "foreground": "#1EB540",
@@ -388,6 +392,7 @@
                 "source.directive.vue variable.other.readwrite.js",
                 "source.julia",
                 "source.python",
+                "source.x86 variable.parameter.registers",
                 "support.other.variable",
                 "variable.language.llvm",
                 "variable.other.dollar.js",
@@ -468,6 +473,8 @@
                 "constant.other.color.rgb-value.hex.css",
                 "constant.other.color.rgb-value.hex.css punctuation.definition.constant.css",
                 "meta.variables.graphql",
+                "source.x86 constant.other.decimal",
+                "source.x86 constant.other.hex",
                 "support.constant.color.w3c-extended-color-name.css",
                 "support.constant.color.w3c-standard-color-name.css",
                 "support.constant.font-name.css",

@@ -178,7 +178,8 @@
                 "punctuation.decorator.ts",
                 "punctuation.definition.annotation",
                 "source.x86 support.constant.subsections",
-                "storage.type.annotation"
+                "storage.type.annotation",
+                "support.function.macro.julia"
             ],
             "settings": {
                 "foreground": "#FF9393",
@@ -348,7 +349,8 @@
                 "meta.function-call support.function",
                 "meta.method-call.static entity.name.function",
                 "support.function.construct.output.php",
-                "support.function.js"
+                "support.function.js",
+                "support.function.julia"
             ],
             "settings": {
                 "foreground": "#96EC3F",

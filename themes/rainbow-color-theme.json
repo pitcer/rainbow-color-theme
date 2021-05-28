@@ -404,6 +404,7 @@
                 "source.asm constant.language.register",
                 "source.directive.vue variable.other.readwrite.js",
                 "source.julia",
+                "source.julia meta.array.julia",
                 "source.python",
                 "source.x86 variable.parameter.registers",
                 "support.other.variable",

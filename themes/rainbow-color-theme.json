@@ -82,6 +82,7 @@
                 "storage.type.class",
                 "storage.type.enum",
                 "storage.type.function",
+                "storage.type.integral",
                 "storage.type.interface",
                 "storage.type.js",
                 "storage.type.lambda",
@@ -95,7 +96,7 @@
                 "storage.type.template",
                 "storage.type.trait.php",
                 "storage.type.ts",
-                "storage.type.integral",
+                "storage.type.union",
                 "support.function.racket",
                 "variable.language"
             ],

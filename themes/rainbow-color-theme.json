@@ -526,6 +526,7 @@
                 "support.function.construct.begin.blade",
                 "support.function.construct.end.blade",
                 "constant.language.list.ocaml",
+                "constant.language.ocaml",
                 "constant.language.unit.ocaml",
                 "constant.other.color",
                 "entity.name.label",

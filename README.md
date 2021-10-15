@@ -28,6 +28,7 @@ Color theme for [Visual Studio Code](https://github.com/microsoft/vscode) inspir
 * Latex
 * Makefile
 * Markdown
+* OCaml
 * PHP
 * Python
 * Racket

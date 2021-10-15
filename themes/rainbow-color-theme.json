@@ -31,6 +31,7 @@
                 "keyword.fragment.graphql",
                 "keyword.input.graphql",
                 "keyword.instruction.llvm",
+                "keyword.ocaml",
                 "keyword.on.graphql",
                 "keyword.operation.graphql",
                 "keyword.operator.and",
@@ -108,6 +109,7 @@
         {
             "name": "Class, Structure, Namespace",
             "scope": [
+                "constant.language.capital-identifier.ocaml",
                 "constant.type-constructor.elm",
                 "entity.name.fragment.graphql",
                 "entity.name.namespace",
@@ -293,6 +295,7 @@
         {
             "name": "Function, Constructor Declaration",
             "scope": [
+                "entity.name.function.binding.ocaml",
                 "entity.name.function.cs",
                 "entity.name.function.definition",
                 "entity.name.function.definition.special.constructor",
@@ -419,6 +422,7 @@
                 "source.directive.vue variable.other.readwrite.js",
                 "source.julia",
                 "source.julia meta.array.julia",
+                "source.ocaml source.ocaml",
                 "source.python",
                 "source.x86 variable.parameter.registers",
                 "support.other.variable",
@@ -521,6 +525,7 @@
                 "end.bracket.round.blade.php",
                 "support.function.construct.begin.blade",
                 "support.function.construct.end.blade",
+                "constant.language.unit.ocaml",
                 "constant.other.color",
                 "entity.name.label",
                 "entity.name.tag.reference.scss",

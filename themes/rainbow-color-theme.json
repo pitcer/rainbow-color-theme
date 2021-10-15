@@ -525,6 +525,7 @@
                 "end.bracket.round.blade.php",
                 "support.function.construct.begin.blade",
                 "support.function.construct.end.blade",
+                "constant.language.list.ocaml",
                 "constant.language.unit.ocaml",
                 "constant.other.color",
                 "entity.name.label",

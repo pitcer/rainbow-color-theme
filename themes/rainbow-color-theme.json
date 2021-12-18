@@ -45,6 +45,7 @@
                 "keyword.operator.expression.in.js",
                 "keyword.operator.expression.of.js",
                 "keyword.operator.expression.typeof.js",
+                "keyword.operator.function.infix.haskell",
                 "keyword.operator.instanceof",
                 "keyword.operator.logical.python",
                 "keyword.operator.new",

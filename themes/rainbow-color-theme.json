@@ -538,6 +538,7 @@
                 "constant.language.ocaml",
                 "constant.language.unit.ocaml",
                 "constant.other.color",
+                "entity.name.function.infix.haskell",
                 "entity.name.label",
                 "entity.name.tag.reference.scss",
                 "entity.name.tag.wildcard.css",

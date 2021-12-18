@@ -20,6 +20,7 @@ Color theme for [Visual Studio Code](https://github.com/microsoft/vscode) inspir
 * CSS
 * EditorConfig
 * Elm
+* Haskell
 * HTML
 * Java
 * JS

@@ -68,6 +68,7 @@
                 "keyword.union.graphql",
                 "meta.declaration.module.elm keyword.other.elm",
                 "meta.preprocessor punctuation.separator.hash",
+                "meta.preprocessor.haskell",
                 "punctuation.definition.directive",
                 "punctuation.definition.keyword.css",
                 "punctuation.section.embedded.begin.php",
@@ -209,7 +210,8 @@
             "name": "Type Parameter",
             "scope": [
                 "entity.name.type.template",
-                "storage.type.generic"
+                "storage.type.generic",
+                "variable.other.generic-type.haskell"
             ],
             "settings": {
                 "foreground": "#D7837F",
@@ -222,6 +224,7 @@
                 "constant.other.caps",
                 "constant.other.class.php",
                 "constant.other.enum",
+                "constant.other.haskell",
                 "constant.other.php",
                 "entity.name.constant.racket",
                 "entity.name.section.markdown",
@@ -268,6 +271,7 @@
                 "meta.object-literal.key.js",
                 "meta.object-literal.key.ts",
                 "meta.property-value.css",
+                "meta.record.definition.haskell variable.other.member.definition.haskell",
                 "meta.struct.fields.racket",
                 "meta.tag.block.any.html entity.other.attribute-name",
                 "meta.tag.inline.any.html entity.other.attribute-name",
@@ -300,6 +304,7 @@
                 "entity.name.function.definition",
                 "entity.name.function.definition.special.constructor",
                 "entity.name.function.graphql",
+                "entity.name.function.haskell",
                 "entity.name.function.julia",
                 "entity.name.function.python",
                 "entity.name.function.racket",
@@ -422,6 +427,7 @@
                 "meta.value.elm",
                 "source.asm constant.language.register",
                 "source.directive.vue variable.other.readwrite.js",
+                "source.haskell",
                 "source.julia",
                 "source.julia meta.array.julia",
                 "source.ocaml source.ocaml",

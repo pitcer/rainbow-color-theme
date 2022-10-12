@@ -19,6 +19,7 @@ Color theme for [Visual Studio Code](https://github.com/microsoft/vscode) inspir
 * CMake
 * CSS
 * EditorConfig
+* Elixir
 * Elm
 * Haskell
 * HTML
@@ -29,6 +30,7 @@ Color theme for [Visual Studio Code](https://github.com/microsoft/vscode) inspir
 * Latex
 * Makefile
 * Markdown
+* Nim
 * OCaml
 * PHP
 * Python

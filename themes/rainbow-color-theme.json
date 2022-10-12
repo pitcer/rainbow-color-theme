@@ -27,6 +27,7 @@
                 "entity.name.tag.template.html",
                 "entity.other.keyframe-offset.css",
                 "keyword.blade",
+                "keyword.boolean.nim",
                 "keyword.control",
                 "keyword.fragment.graphql",
                 "keyword.input.graphql",
@@ -101,7 +102,8 @@
                 "storage.type.ts",
                 "storage.type.union",
                 "support.function.racket",
-                "variable.language"
+                "variable.language",
+                "variable.parameter.function.language.special.self.python"
             ],
             "settings": {
                 "foreground": "#DD2867",
@@ -121,6 +123,7 @@
                 "entity.name.type.class.reference",
                 "entity.name.type.class.templated",
                 "entity.name.type.class.value",
+                "entity.name.type.module.elixir",
                 "entity.name.type.module.js",
                 "entity.name.type.namespace",
                 "entity.name.type.struct",
@@ -147,6 +150,7 @@
                 "support.type",
                 "support.type.object.module.js keyword.operator.accessor.js",
                 "variable.other.class.js",
+                "variable.other.constant.elixir",
                 "variable.other.object",
                 "variable.other.readwrite.alias.js",
                 "variable.type.elm"
@@ -190,7 +194,9 @@
                 "punctuation.definition.annotation",
                 "source.x86 support.constant.subsections",
                 "storage.type.annotation",
-                "support.function.macro.julia"
+                "support.function.macro.julia",
+                "variable.other.readwrite.module.elixir",
+                "variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
             ],
             "settings": {
                 "foreground": "#FF9393",
@@ -307,6 +313,7 @@
                 "entity.name.function.graphql",
                 "entity.name.function.haskell",
                 "entity.name.function.julia",
+                "entity.name.function.nim",
                 "entity.name.function.python",
                 "entity.name.function.racket",
                 "entity.name.function.target.makefile",
@@ -315,6 +322,7 @@
                 "meta.declaration.exports.elm entity.name.function.elm",
                 "meta.definition.function entity.name.function",
                 "meta.definition.method entity.name.function",
+                "meta.function.definition.elixir entity.name.function.elixir",
                 "meta.function.definition.parameters entity.name.function",
                 "meta.function.js entity.name.function.js",
                 "meta.function.method.js entity.name.function.method.js",
@@ -322,6 +330,7 @@
                 "meta.function.method.with-arguments entity.name.function",
                 "meta.function.php entity.name.function.php",
                 "meta.function.php support.function.magic.php",
+                "meta.function.python support.function.magic.python",
                 "meta.function.type-declaration.elm entity.name.function.elm",
                 "meta.method.identifier entity.name.function",
                 "source.asm entity.name.function",
@@ -336,6 +345,7 @@
             "name": "Function, Constructor Call",
             "scope": [
                 "entity.name.function.call",
+                "entity.name.function-call.elixir",
                 "entity.name.type.instance.js",
                 "keyword.cmake",
                 "meta.at-rule.include.scss entity.name.function.scss",
@@ -356,6 +366,7 @@
                 "meta.scope.prerequisites.makefile",
                 "new.expr.js entity.name.type.js",
                 "source.css support.function",
+                "support.function.any-method.nim",
                 "support.function.builtin.python",
                 "support.function.core",
                 "support.function.julia",
@@ -405,6 +416,7 @@
                 "entity.other.attribute-name",
                 "meta.function.parameters.js variable.other.readwrite.js",
                 "meta.method.body",
+                "parameter.variable.function.elixir",
                 "string.unquoted.alias.graphql",
                 "string.unquoted.graphql",
                 "variable.other.block",
@@ -421,6 +433,7 @@
                 "entity.name.variable.local",
                 "entity.name.variable.range-variable.cs",
                 "meta.definition.variable.js entity.name.function.js",
+                "meta.embedded.line.elixir",
                 "meta.function.js variable.other.readwrite.js",
                 "meta.function.method.js variable.other.readwrite.js",
                 "meta.function-call.python meta.function-call.arguments.python",
@@ -428,9 +441,11 @@
                 "meta.value.elm",
                 "source.asm constant.language.register",
                 "source.directive.vue variable.other.readwrite.js",
+                "source.elixir",
                 "source.haskell",
                 "source.julia",
                 "source.julia meta.array.julia",
+                "source.nim",
                 "source.ocaml source.ocaml",
                 "source.python",
                 "source.x86 variable.parameter.registers",
@@ -498,7 +513,10 @@
             "scope": [
                 "constant.character",
                 "constant.character.escape",
+                "constant.language.symbol.elixir",
+                "constant.language.symbol.elixir punctuation.definition.constant.elixir",
                 "constant.other",
+                "meta.embedded.line.elixir punctuation.section.embedded.elixir",
                 "storage.source.cmake"
             ],
             "settings": {
@@ -579,6 +597,7 @@
                 "punctuation.section.embedded",
                 "source.asm punctuation.separator storage.modifier",
                 "source.cmake",
+                "source.elixir meta.function.definition.elixir",
                 "source.julia meta",
                 "storage.modifier.array.bracket.square",
                 "storage.modifier.package",

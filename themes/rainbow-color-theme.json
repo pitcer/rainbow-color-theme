@@ -114,6 +114,7 @@
             "name": "Class, Structure, Namespace",
             "scope": [
                 "constant.language.capital-identifier.ocaml",
+                "constant.language.polymorphic-variant.ocaml",
                 "constant.type-constructor.elm",
                 "entity.name.fragment.graphql",
                 "entity.name.namespace",

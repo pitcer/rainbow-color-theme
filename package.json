@@ -2,6 +2,7 @@
     "name": "rainbow-color-theme",
     "displayName": "Rainbow Color Theme",
     "description": "Rainbow color theme for VS Code",
+    "publisher": "pitcer",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.40.0"
@@ -17,5 +18,9 @@
                 "path": "./themes/rainbow-color-theme.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pitcer/rainbow-color-theme.git"
     }
 }

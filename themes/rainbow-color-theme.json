@@ -26,9 +26,12 @@
                 "entity.name.tag.style.html",
                 "entity.name.tag.template.html",
                 "entity.other.keyframe-offset.css",
+                "entity.name.type.numeric.wit",
+                "entity.name.type.string.wit",
                 "keyword.blade",
                 "keyword.boolean.nim",
                 "keyword.control",
+                "keyword.declaration.record.record-item.wit",
                 "keyword.fragment.graphql",
                 "keyword.input.graphql",
                 "keyword.instruction.llvm",
@@ -101,6 +104,7 @@
                 "storage.type.trait.php",
                 "storage.type.ts",
                 "storage.type.union",
+                "storage.type.wit",
                 "support.function.racket",
                 "variable.language",
                 "variable.parameter.function.language.special.self.python"
@@ -124,9 +128,14 @@
                 "entity.name.type.class.reference",
                 "entity.name.type.class.templated",
                 "entity.name.type.class.value",
+                "entity.name.type.id.record-item.wit",
+                "entity.name.type.id.type-item.wit",
+                "entity.name.type.id.wit",
+                "entity.name.type.id.world-item.wit",
                 "entity.name.type.module.elixir",
                 "entity.name.type.module.js",
                 "entity.name.type.namespace",
+                "entity.name.type.package-identifier.wit entity.name.type.id.wit",
                 "entity.name.type.struct",
                 "entity.name.type.trait.php",
                 "entity.name.type.ts",
@@ -152,6 +161,7 @@
                 "support.type.object.module.js keyword.operator.accessor.js",
                 "variable.other.class.js",
                 "variable.other.constant.elixir",
+                "variable.other.id.import-item.wit",
                 "variable.other.object",
                 "variable.other.readwrite.alias.js",
                 "variable.type.elm"
@@ -207,7 +217,9 @@
         {
             "name": "Enum",
             "scope": [
-                "entity.name.type.enum"
+                "entity.name.type.enum",
+                "entity.name.type.option.wit",
+                "entity.name.type.result.wit"
             ],
             "settings": {
                 "foreground": "#CC81BA",
@@ -291,6 +303,7 @@
                 "support.type.property-name.json.comments",
                 "support.variable.hocon",
                 "support.variable.property",
+                "variable.declaration.id.record-fields.wit",
                 "variable.graphql",
                 "variable.object.property.ts",
                 "variable.other.definition",
@@ -313,6 +326,7 @@
                 "entity.name.function.definition.special.constructor",
                 "entity.name.function.graphql",
                 "entity.name.function.haskell",
+                "entity.name.function.id.func-item.wit",
                 "entity.name.function.julia",
                 "entity.name.function.nim",
                 "entity.name.function.python",

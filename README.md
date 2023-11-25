@@ -47,4 +47,5 @@ You can build VSIX file from source or download it from releases.
 * SCSS
 * TS
 * Vue
+* WIT
 * YAML
